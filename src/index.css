@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-800 bg-white antialiased;
+  }
+  h1 {
+    @apply text-3xl md:text-4xl font-bold text-gray-900 mb-6;
+  }
+  h2 {
+    @apply text-2xl md:text-3xl font-semibold text-gray-900 mb-4 mt-8;
+  }
+  h3 {
+    @apply text-xl font-semibold text-gray-800 mb-3 mt-6;
+  }
+  p {
+    @apply mb-4 leading-relaxed text-gray-700;
+  }
+  a {
+    @apply text-primary hover:text-primary-light transition-colors;
+  }
+}
+
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Table Styles */
+.salary-table-container {
+  @apply overflow-x-auto border border-gray-200 rounded-lg shadow-sm mb-8;
+}
+
+.salary-table {
+  @apply min-w-full divide-y divide-gray-200;
+}
+
+.salary-table th {
+  @apply px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.salary-table td {
+  @apply px-6 py-4 whitespace-nowrap text-sm text-gray-900;
+}
+
+.salary-table tr:nth-child(even) {
+  @apply bg-gray-50;
+}
+
+.salary-table tr:hover {
+  @apply bg-blue-50;
+}
