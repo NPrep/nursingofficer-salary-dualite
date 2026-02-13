@@ -49,7 +49,14 @@
     "reactSnap":  {
                       "source":  "dist",
                       "include":  [
-                                      "/"
+                                      "/",
+                                      "/blogs",
+                                      "/central-salaries",
+                                      "/courses",
+                                      "/in-hand-estimator",
+                                      "/nhm-cho-salaries",
+                                      "/pay-matrix",
+                                      "/state-salaries"
                                   ],
                       "crawl":  true,
                       "inlineCss":  true,
