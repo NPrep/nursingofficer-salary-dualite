@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import { Link } from 'react-router-dom';
 import { stateSalaries } from '../data/salaryData';
 import { MapPin } from 'lucide-react';
@@ -7,10 +7,10 @@ import { MapPin } from 'lucide-react';
 const StateSalaries = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>State Nursing Officer Salaries - State-wise List</title>
         <meta name="description" content="Check Staff Nurse salaries for UP, Rajasthan, Kerala, MP, Bihar and other states. Compare state government nursing pay scales." />
-      </Helmet>
+      </Head>
 
       <div className="bg-white py-12">
         <div className="container-custom">

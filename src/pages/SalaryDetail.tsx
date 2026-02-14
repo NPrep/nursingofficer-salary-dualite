@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import { centralSalaries, stateSalaries, nhmSalaries } from '../data/salaryData';
 import SalaryTable from '../components/SalaryTable';
 import { Calculator, BookOpen } from 'lucide-react';
@@ -18,10 +18,10 @@ const SalaryDetail = () => {
 
   return (
     <>
-      <Helmet>
+      <Head>
         <title>{`${salary.title} Salary Structure, In-Hand Pay & Allowances`}</title>
         <meta name="description" content={`Detailed salary breakdown for ${salary.title}. Check Basic Pay, Grade Pay, DA, HRA, and monthly in-hand salary estimates.`} />
-      </Helmet>
+      </Head>
 
       <div className="bg-white py-12">
         <div className="container-custom max-w-4xl">

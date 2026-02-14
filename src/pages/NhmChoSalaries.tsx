@@ -1,15 +1,15 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import { nhmSalaries } from '../data/salaryData';
 import SalaryTable from '../components/SalaryTable';
 
 const NhmChoSalaries = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>NHM & CHO Salary Structure - Contractual Nursing Jobs</title>
         <meta name="description" content="Salary details for NHM Staff Nurses and Community Health Officers (CHO). Understand consolidated pay, performance incentives (PBI), and contractual terms." />
-      </Helmet>
+      </Head>
 
       <div className="bg-gray-50 py-12">
         <div className="container-custom">

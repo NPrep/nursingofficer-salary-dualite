@@ -1,13 +1,13 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 
 const PayMatrix = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>7th CPC Pay Matrix for Nurses - Level 7 Pay Scale</title>
         <meta name="description" content="Check the 7th CPC Pay Matrix Table for Nursing Officers. Understand Level 7 pay progression, annual increments, and promotion levels." />
-      </Helmet>
+      </Head>
 
       <div className="bg-white py-12">
         <div className="container-custom">

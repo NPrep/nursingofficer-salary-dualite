@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import { Link } from 'react-router-dom';
 import { blogs } from '../data/blogData';
 import { Clock, User, ArrowRight } from 'lucide-react';
@@ -7,10 +7,10 @@ import { Clock, User, ArrowRight } from 'lucide-react';
 const Blogs = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>Nursing Officer Salary Blogs & Career Guides</title>
         <meta name="description" content="In-depth articles on Nursing Officer salaries, job profiles, career progression, and exam preparation strategies for AIIMS, RRB, ESIC and more." />
-      </Helmet>
+      </Head>
 
       <div className="bg-gray-50 py-12">
         <div className="container-custom">

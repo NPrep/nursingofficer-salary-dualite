@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import CentralSalaries from './pages/CentralSalaries';
@@ -11,6 +11,7 @@ import Courses from './pages/Courses';
 import SalaryDetail from './pages/SalaryDetail';
 import Blogs from './pages/Blogs';
 import BlogPost from './pages/BlogPost';
+import { RouterWrapper } from './next/RouterWrapper';
 
 // Helper to scroll to top on route change
 const ScrollToTopHelper = () => {
@@ -21,9 +22,13 @@ const ScrollToTopHelper = () => {
   return null;
 };
 
-function App() {
+type AppProps = {
+  initialPath?: string;
+};
+
+function App({ initialPath = '/' }: AppProps) {
   return (
-    <Router>
+    <RouterWrapper initialPath={initialPath}>
       <ScrollToTopHelper />
       <Layout>
         <Routes>
@@ -40,7 +45,7 @@ function App() {
           <Route path="/blogs/:slug" element={<BlogPost />} />
         </Routes>
       </Layout>
-    </Router>
+    </RouterWrapper>
   );
 }
 

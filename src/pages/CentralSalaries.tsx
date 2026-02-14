@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import { Link } from 'react-router-dom';
 import { centralSalaries } from '../data/salaryData';
 import { ArrowRight } from 'lucide-react';
@@ -7,10 +7,10 @@ import { ArrowRight } from 'lucide-react';
 const CentralSalaries = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>Central Government Nursing Officer Salaries - AIIMS, RRB, ESIC</title>
         <meta name="description" content="Complete list of Central Government Nursing Officer salaries. Check pay scales for AIIMS NORCET, RRB, ESIC, DSSSB, and other central institutes." />
-      </Helmet>
+      </Head>
 
       <div className="bg-gray-50 py-12">
         <div className="container-custom">

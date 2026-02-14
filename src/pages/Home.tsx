@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import { Link } from 'react-router-dom';
 import { Search, ArrowRight, TrendingUp, Building2, MapPin } from 'lucide-react';
 import { centralSalaries, stateSalaries, nhmSalaries } from '../data/salaryData';
@@ -15,10 +15,10 @@ const Home = () => {
 
   return (
     <>
-      <Helmet>
+      <Head>
         <title>Nursing Officer Salary in India – Central, State, NHM, CHO & In-Hand Estimates</title>
         <meta name="description" content="Detailed guide on Nursing Officer Salaries in India. Check AIIMS, RRB, ESIC, State Govt, and NHM/CHO pay scales, allowances, and in-hand salary estimates." />
-      </Helmet>
+      </Head>
 
       {/* Hero Section */}
       <section className="bg-primary-dark text-white py-16">

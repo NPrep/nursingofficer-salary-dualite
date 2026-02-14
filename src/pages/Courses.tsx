@@ -1,15 +1,15 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import { courses } from '../data/salaryData';
 import { BookOpen, CheckCircle, ExternalLink } from 'lucide-react';
 
 const Courses = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>Nursing Officer Exam Preparation Courses - NORCET, RRB, State PSC</title>
         <meta name="description" content="Best courses for Nursing Officer exams. Prepare for AIIMS NORCET, RRB Staff Nurse, ESIC, and State PSC exams with structured study material." />
-      </Helmet>
+      </Head>
 
       <div className="bg-white py-12">
         <div className="container-custom">

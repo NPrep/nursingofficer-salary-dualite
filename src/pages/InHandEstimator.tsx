@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import { Calculator } from 'lucide-react';
 
 const InHandEstimator = () => {
@@ -25,10 +25,10 @@ const InHandEstimator = () => {
 
   return (
     <>
-      <Helmet>
+      <Head>
         <title>Nursing Officer Salary Calculator - Estimate In-Hand Pay</title>
         <meta name="description" content="Calculate your in-hand salary as a Nursing Officer. Input Basic Pay, DA rate, and City Tier to get an accurate estimate of monthly earnings." />
-      </Helmet>
+      </Head>
 
       <div className="bg-gray-50 py-12">
         <div className="container-custom max-w-3xl">

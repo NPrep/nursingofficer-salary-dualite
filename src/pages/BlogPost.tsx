@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeSlug from 'rehype-slug';
@@ -20,7 +20,7 @@ const BlogPost = () => {
 
   return (
     <>
-      <Helmet>
+      <Head>
         <title>{blog.title} - NursingOfficerSalary.com</title>
         <meta name="description" content={blog.excerpt} />
         <script type="application/ld+json">
@@ -45,7 +45,7 @@ const BlogPost = () => {
             "description": blog.excerpt
           })}
         </script>
-      </Helmet>
+      </Head>
 
       <div className="bg-white py-12">
         <div className="container-custom">
