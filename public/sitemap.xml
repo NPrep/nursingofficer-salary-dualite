@@ -1,60 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://nursingofficersalary.com/</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-02-15</lastmod>
     <priority>1.0</priority>
   </url>
-
   <url>
-    <loc>https://nursingofficersalary.com/blogs</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://nursingofficersalary.com/blogs/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://nursingofficersalary.com/central-salaries</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://nursingofficersalary.com/central-salaries/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://nursingofficersalary.com/courses</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://nursingofficersalary.com/courses/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://nursingofficersalary.com/in-hand-estimator</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://nursingofficersalary.com/in-hand-estimator/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://nursingofficersalary.com/nhm-cho-salaries</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://nursingofficersalary.com/nhm-cho-salaries/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://nursingofficersalary.com/pay-matrix</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://nursingofficersalary.com/pay-matrix/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://nursingofficersalary.com/state-salaries</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://nursingofficersalary.com/state-salaries/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <priority>0.8</priority>
   </url>
-
 </urlset>
