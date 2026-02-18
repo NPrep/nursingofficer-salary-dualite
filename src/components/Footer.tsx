@@ -32,8 +32,6 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-gray-600">
               <li><Link to="/in-hand-estimator" className="hover:text-primary transition-colors">Salary Estimator</Link></li>
               <li><Link to="/courses" className="hover:text-primary transition-colors">Preparation Courses</Link></li>
-              <li><Link to="/" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
-              <li><Link to="/" className="hover:text-primary transition-colors">Contact Us</Link></li>
             </ul>
           </div>
         </div>
