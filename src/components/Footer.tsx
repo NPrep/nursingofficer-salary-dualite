@@ -13,7 +13,7 @@ const Footer = () => {
             </p>
             <div className="mt-4 text-sm">
               <p className="font-semibold text-gray-700">Contact Us:</p>
-              <p className="text-primary font-bold mt-1">Phone: +91 6377 6391 69</p>
+              <a href="tel:+916377639169" className="text-primary font-bold mt-1 inline-block hover:underline">Phone: +91 6377 6391 69</a>
             </div>
           </div>
           
@@ -44,7 +44,7 @@ const Footer = () => {
              </a>
           </div>
           <p>&copy; {new Date().getFullYear()} NursingOfficerSalary.com. All rights reserved.</p>
-          <p className="mt-2 text-xs max-w-3xl mx-auto">
+          <p className="nprep-disclaimer-banner mt-2 text-xs max-w-3xl mx-auto">
             Disclaimer: This is not an official government portal. It is a help portal regarding nursing exams and salary information. Salaries mentioned are estimates based on official pay scales and may vary based on posting location and latest government orders.
           </p>
         </div>
