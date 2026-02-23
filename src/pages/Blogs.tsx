@@ -26,7 +26,7 @@ const Blogs = () => {
               <article key={blog.id} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
                 {blog.imageUrl && (
                   <div className="h-48 overflow-hidden">
-                    <img 
+                    <img loading="lazy" 
                       src={blog.imageUrl} 
                       alt={blog.title} 
                       className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"

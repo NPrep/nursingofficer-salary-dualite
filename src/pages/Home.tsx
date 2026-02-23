@@ -215,6 +215,18 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="py-12 bg-white border-t border-gray-200">
+        <div className="container-custom">
+          <div className="nprep-testimonial-cta">
+            <h2 className="text-3xl font-semibold text-[var(--text-primary)]">Hear from real students</h2>
+            <a className="cta" href="https://nprep.in/blogs?filter=NORCET+Success+Story" target="_blank" rel="noopener noreferrer">
+              Read verified success stories on NPrep
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro Content */}
       <section className="py-12 bg-white">
         <div className="container-custom max-w-4xl">
           <h2>Understanding Nursing Officer Salaries in India</h2>
