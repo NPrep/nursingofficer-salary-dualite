@@ -53,6 +53,12 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
+            <Link
+              to="/in-hand-estimator"
+              className="ml-2 inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-primary-dark hover:text-white"
+            >
+              Calculate Your Salary
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -72,6 +78,13 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-100">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <Link
+              to="/in-hand-estimator"
+              onClick={() => setIsOpen(false)}
+              className="block px-3 py-2 rounded-md text-base font-semibold text-white bg-primary"
+            >
+              Calculate Your Salary
+            </Link>
             {navLinks.map((link) => (
               <Link
                 key={link.name}
